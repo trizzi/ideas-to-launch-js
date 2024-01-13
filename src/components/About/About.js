@@ -2,13 +2,20 @@ import React from 'react';
 import aboutLogo from '../../Assets/about-logo.svg';
 import text from '../../Assets/IDEAS 2 LAUNCH.svg';
 import aboutImage from '../../Assets/about-image.svg';
+import Button from '../../Utilities/Button';
 
 const About = () => {
 	return (
-		<div className='flex justify-between text-white'>
-			<div className=' bg-slate-800 w-1/2'>
-				<div className='mt-6'>
-					<div className='flex'>
+		<div name='section2' className='flex flex-col sm:flex-row w-full justify-between text-white'>
+			<div className='sm:w-1/2' 
+				style={{
+					backgroundImage: `url(${aboutImage})`,
+					backgroundRepeat: 'no-repeat',
+					backgroundSize: 'cover',
+					height: '800px',
+					backgroundColor: 'rgba(0,0,0,0.9)'}}>
+				<div className=' bg-[#29292E] opacity-80 h-[800px]'>
+					<div className='flex md:pl-16 pt-24'>
 						<div>
 							<img src={aboutLogo} alt='about-logo' />
 						</div>
@@ -17,14 +24,16 @@ const About = () => {
 							<img src={text} alt='ideas-2-launch' />
 						</div>
 					</div>
-					<div className='ml-24'>
+					<div className='mx-10 md:ml-24'>
 						<ul>
 							<li>Consulting with purpose</li>
 							<li>Bringing ideas to life</li>
 						</ul>
 					</div>
-					<div className='ml-24'>
-						<h1>Do you have a great product idea?</h1>
+                    <div className='mx-10 md:ml-24 md:py-8'>
+						<h1 className='font-bold pb-4'>
+							Do you have a great product idea?
+						</h1>
 						<p>
 							but are unsure how to bring your product to market? Are you a{' '}
 							<br />
@@ -42,21 +51,22 @@ const About = () => {
 							process from ideation to post launch.
 						</p>
 					</div>
-					<div className='ml-24 my-4'>
-						<button>Join</button>
+					<div className='md:ml-24 md:my-4 ml-10 mt-8'>
+						<Button text={'Join'} />
 					</div>
 				</div>
 			</div>
 			<div
-				className='w-1/2'
+				className='hidden md:block md:visible sm:w-1/2 '
 				style={{
 					backgroundImage: `url(${aboutImage})`,
 					backgroundRepeat: 'no-repeat',
 					backgroundSize: 'cover',
 					height: '800px',
 					backgroundColor: 'rgba(0,0,0,0.9)',
-				}}></div>
-		</div>
+				}}>
+				</div>
+				</div>
 	);
 };
 
