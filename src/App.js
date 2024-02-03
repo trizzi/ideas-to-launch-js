@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
@@ -11,14 +10,10 @@ import Contact from './components/Contact/Contact';
 import { useTheme } from './context/ThemeContext';
 
 function App() {
-	const [isOpen, setIsOpen] = useState(false);
+
 	const { theme } = useTheme();
 
-	const toggle = () => {
 	
-		setIsOpen(!isOpen);
-		console.log('click');
-	};
 
 	return (
 		<div className='App'>
@@ -38,7 +33,7 @@ function App() {
 										backgroundColor: 'rgba(0,0,0,0.9)',
 										color: theme.textcolor.dark,
 									}}>
-									<Navbar toggle={toggle} />
+									<Navbar  />
 									<Showcase />
 								</div>
 								<About />
