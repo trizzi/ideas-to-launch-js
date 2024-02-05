@@ -17,16 +17,17 @@ const Showcase = () => {
 			<div className='flex flex-col md:flex-row justify-between md:container md:mx-auto  items-center py-44 text-white'>
 				<div className='px-12'>
 					<img src={Text} alt='text' />
+					<div className='flex'>
 					<input type='text' />
 					<Link to='section4'>
-
-					
 					<Button
 								text={'Join'} 
 							    className='text-white'
 								background
 								/>
 								</Link>
+					</div>
+					
 				</div>
 				<SlideIn>
 				<div className='md:mx-10 md:my-20 '>
