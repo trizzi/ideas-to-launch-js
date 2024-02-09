@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "heading": "Idealization Stage",
+        "text": [
+             "Marketing Analysis", "Feasibility", "Route to market advice"
+        ]
+      },
+      {
+        "id": 2,
+        "heading": "EU regulatory services (Cosmetics)",
+        "text": [
+            "Labeling assessment", "Formulation advice", "Claims substantiation", "CPNP notification, PIF", "Product Compliance", "Technical documentation", "Regulatory advice"
+        ]
+      },
+      {
+        "id": 3,
+        "heading": "EU regulatory services (Food & Beverages)",
+        "text": [
+             "Labeling assessment", "Nutrition and health claims", "Product Compliance", "Technical documentation", "Regulatory advice"
+]
+      },
+      {
+        "id": 4,
+        "heading": "Formulation & Testing",
+        "text": [
+             "Management of all aspects of formulation development and testing requirements on behalf of our customers"
+        ]
+        
+      }
+]

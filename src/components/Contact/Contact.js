@@ -68,7 +68,7 @@ const Contact = () => {
 
 	return (
 		<div
-			name='section4'
+			name='section5'
 			className='flex flex-wrap md:flex-nowrap text-white w-full'>
 			<div className='w-full bg-black p-12 md:p-32'>
 				<img

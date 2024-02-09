@@ -72,10 +72,18 @@ const Navbar = () => {
 								smooth={true}
 								duration={500}
 								onClick={closeMenu}>
-								Services
+								Mission
 							</Link>
 							<Link
 								to='section4'
+								className='block py-2 hover:text-gray-300'
+								smooth={true}
+								duration={500}
+								onClick={closeMenu}>
+								Services
+							</Link>
+							<Link
+								to='section5'
 								className='block py-2 hover:text-gray-300'
 								smooth={true}
 								duration={500}
@@ -84,7 +92,7 @@ const Navbar = () => {
 							</Link>
 
 							<Link
-								to='section4'
+								to='section5'
 								className='block py-2 hover:text-gray-300'
 								onClick={closeMenu}>
 								<Button
@@ -100,9 +108,10 @@ const Navbar = () => {
 				<ul className='pr-8 md:flex hidden space-x-5 lg:space-x-16 items-center text-white'>
 				<Link to="section1" smooth={true} duration={500}>Home</Link>
 				<Link to="section2" smooth={true} duration={500}>About</Link>
-				<Link to="section3" smooth={true} duration={500}>Services</Link>
-				<Link to="section4" smooth={true} duration={500}>Contact</Link>
-					<Link to='section4'>
+				<Link to="section3" smooth={true} duration={500}>Mission</Link>
+				<Link to="section4" smooth={true} duration={500}>Services</Link>
+				<Link to="section5" smooth={true} duration={500}>Contact</Link>
+					<Link to='section5'>
 					<Button text={'Join'} background/>
 					</Link>
 					

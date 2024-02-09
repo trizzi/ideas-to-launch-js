@@ -5,6 +5,7 @@ import Showcase from './components/Showcase/Showcase';
 import About from './components/About/About';
 import showcaseImg from './Assets/showcase-image.svg';
 import Mission from './components/Mission/Mission';
+import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 
 import { useTheme } from './context/ThemeContext';
@@ -38,6 +39,7 @@ function App() {
 								</div>
 								<About />
 								<Mission />
+								<Services />
 								<Contact />
 							</>
 						}
