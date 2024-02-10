@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll'
 import aboutLogo from '../../Assets/about-logo.svg';
 import text from '../../Assets/IDEAS 2 LAUNCH.svg';
 import aboutImage from '../../Assets/about-image.svg';
@@ -52,7 +53,10 @@ const About = () => {
 						</p>
 					</div>
 					<div className='md:ml-24 md:my-4 ml-10 mt-8'>
+					
+						<Link to='section5'>
 						<Button text={'Join'} />
+					</Link>
 					</div>
 				</div>
 			</div>

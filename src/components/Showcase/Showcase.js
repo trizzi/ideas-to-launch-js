@@ -19,7 +19,7 @@ const Showcase = () => {
 					<img src={Text} alt='text' />
 					<div className='flex'>
 					<input type='text' />
-					<Link to='section4'>
+					<Link to='section5'>
 					<Button
 								text={'Join'} 
 							    className='text-white'
@@ -40,11 +40,11 @@ const Showcase = () => {
 				</SlideIn>
 				
 				
-				<div className='my-20 mr-20 lg:hidden'>
+				<div className='mt-[17rem] ml-40 lg:hidden'>
 				<div className='flex text-white bg-[#29292E] opacity-90 rounded-full p-4 w-fit hover:bg-black'>
-                   <img src={Profile} alt="Images" />
+                   <img src={Profile} alt="Images" className='w-4'/>
 				   <a href={`mailto:${emailAddress}`}
-								onClick={handleEmailClick} className='pt-3 pl-2'><p>info@ideas2launch.com</p></a>
+								onClick={handleEmailClick} className=' pl-1'><p className='text-xs'>info@ideas2launch.com</p></a>
 				</div>
 				</div>
 				

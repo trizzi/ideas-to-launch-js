@@ -1,8 +1,8 @@
 import React from 'react';
+import { Link } from 'react-scroll'
 import missionImage from '../../Assets/mission-image.svg';
 import missionLogo from '../../Assets/about-logo.svg';
 import text from '../../Assets/IDEAS 2 LAUNCH.svg';
-import Profile from '../../Assets/Profile picture.svg'
 import Button from '../../Utilities/Button';
 import { useTheme } from '../../context/ThemeContext';
 
@@ -45,19 +45,22 @@ const Mission = () => {
 							<span
 								className='whitespace-nowrap flex items-center p-5'
 								style={{ color: theme.primary }}>
+								<Link to='section5'>
 								<Button
 								text={'Join'} 
 							    className='text-white'
 								/>
+								</Link>
+								
 							</span>
 					
 					</div>
-					<div className='mx-10 my-20 lg:hidden'>
+					{/* <div className='mx-10 my-20 lg:hidden'>
 				        <div className='flex text-white bg-[rgb(27,27,31)] opacity-90 rounded-full p-4 w-fit hover:bg-black'>
                              <img src={Profile} alt="Images" />
 				             <a href="info@ideas2launch.com" className='pt-3 pl-2'><p>info@ideas2launch.com</p></a>
 				</div>
-				</div>
+				</div> */}
 				</div>
 			</div>
 		</div>
