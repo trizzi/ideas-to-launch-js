@@ -21,7 +21,6 @@ Just a simple website landing page proposal for the ideas2launch company.
 <img width="1678" alt="Screenshot 2024-08-20 at 14 17 46" src="https://github.com/user-attachments/assets/ee642258-6b64-4ff2-a6cb-c7bf79480fe7">
 <img width="1678" alt="Screenshot 2024-08-20 at 14 17 58" src="https://github.com/user-attachments/assets/a83c2934-1f92-49dd-85e7-2fe04a0fef5c">
 
-
 # How To Set It Up On Your Local Machine
 * Clone this git repo: https://github.com/trizzi/ideas-to-launch-js.git
 * Get in the directory of the project
