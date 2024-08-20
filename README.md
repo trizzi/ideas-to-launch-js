@@ -30,7 +30,7 @@ Just a simple website landing page proposal for the ideas2launch company.
 
 * npm install
 * npm run dev
-* After that there will be a link in display after it starts running which is http://localhost:1234/ (This link will work if the project is properly setup in your computer and run at the default react port)
+* After that there will be a link in display after it starts running which is http://localhost:3000/ (This link will work if the project is properly setup on your computer and runs at the default react port)
 
 # Libraries And Frameworks Used For The Project
 * Figma for design
